@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 234, 232);
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: blanchedalmond;
+  width: fit-content;
+}
+
+.row {
+  font-size: 4rem;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 5px solid rgba(0, 0, 0, 0.393);
+  background-color: rgb(234, 234, 232);
+  cursor: pointer;
+}
